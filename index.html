@@ -42,9 +42,9 @@
                             </ul>
 
                             <div class="media-icons flex">
-                                    <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
-                                    <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a>
-                                    <a href="https://www.instagram.com/accounts/login"><i class='bx bxl-instagram-alt' ></i></a>
+                                    <a href="https://www.facebook.com/loren.vieira.3?mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                                    <!-- <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a> -->
+                                    <a href="https://instagram.com/lorenjvieiratattoo?igshid=MTIyMzRjYmRlZg=="><i class='bx bxl-instagram-alt' ></i></a>
                                     <!-- <a href="https://github.com/login"><i class='bx bxl-github'></i></a>
                                     <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a> -->
                             </div>
@@ -455,8 +455,8 @@
                         <input type="email" placeholder="emai@example.com" class="newletter-input-2">
                     </div> -->
 
-                <form id="contact-form">
-                    <div class="newsletter-inputBox">
+                <!-- <form id="contact-form"> -->
+                <div class="newsletter-inputBox">
                         <input type="text" id="name" placeholder="Name" name="name" class="newletter-input-2" required>                                               
                 </div>
 
@@ -473,10 +473,10 @@
                 </div>
 
                 <div class="newsletter-inputBox">
-                        <button type="submit" class="button newsletter-button-2">Enviar</button>   
+                        <button type="submit" id="contact-form" class="button newsletter-button-2">Enviar</button>   
                 </div>
 
-                </form>
+                <!-- </form> -->
 
                 <script>
         
@@ -487,7 +487,7 @@
                     
                 
                         // Adiciona um evento de submit ao formulário
-                        document.getElementById('contact-form').addEventListener('submit', function(event) {
+                        document.getElementById('contact-form').addEventListener('click', function(event) {
                             event.preventDefault();
                 
                             // Pega os valores dos campos do formulário
@@ -504,19 +504,22 @@
                             message: message
                             }).then(function(response) {
                             alert('E-mail enviado com sucesso!');
-                            document.getElementById('contact-form').reset();
+                            window.location.reload(false);
+                        //     document.getElementById('contact-form').reset();
+                
                             }, function(error) {
                             alert('Ocorreu um erro ao enviar o e-mail. Por favor, tente novamente mais tarde.');
                             console.log('ERROR', error);
                             });
+                            
                         });
                         })();
                     </script>
 
                     <div class="newsletter media-icons flex">
-                        <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
-                        <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a>
-                        <a href="https://www.instagram.com/accounts/login"><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href="https://www.facebook.com/loren.vieira.3?mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+                        <!-- <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a> -->
+                        <a href="https://instagram.com/lorenjvieiratattoo?igshid=MTIyMzRjYmRlZg=="><i class='bx bxl-instagram-alt' ></i></a>
                         <!-- <a href="https://github.com/login"><i class='bx bxl-github'></i></a> -->
                         <!-- <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a> -->
                     </div>
