@@ -19,6 +19,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- E-mail -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
 </head>
 <body>
 <!-- Header -->
@@ -66,7 +69,7 @@
                         <div class="swiper mySwiper">
                                 <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                                <img src="images/homeImg1.jpg" alt="" class="home-img">
+                                                <img src="images/loren_2.jpg" alt="" class="home-img">
 
                                                 <div class="home-details">
                                                         <div class="home-text">
@@ -79,7 +82,7 @@
                                         </div>
 
                                         <div class="swiper-slide">
-                                                <img src="images/homeImg2.jpg" alt="" class="home-img">
+                                                <img src="images/loren_1.jpg" alt="" class="home-img">
 
                                                 <div class="home-details">
                                                         <div class="home-text">
@@ -92,13 +95,13 @@
                                         </div>
 
                                         <div class="swiper-slide">
-                                                <img src="images/homeImg3.jpg" alt="" class="home-img">
+                                                <img src="images/loren_3.jpg" alt="" class="home-img">
 
                                                 <div class="home-details">
                                                         <div class="home-text">
                                                                 <h4 class="homeSubtitle">
                                                                         Art is the expression of the soul.</h4>                                                                 
-                                                                <h2 class="homeTitle">Let your skin <br> tell its story</h2>
+                                                                <h2 class="homeTitle">Let your skin <br> tell it's story</h2>
                                                         </div>
 
                                                         <button class="button">Schedule now</button>
@@ -118,11 +121,11 @@
         <section class="section about" id="about">
                 <div class="about-content container">
                         <div class="about-imageContent">
-                                <img src="images/aboutImg.jpg" alt="" class="about-img">
+                                <img src="images/loren_4.jpg" alt="" class="about-img">
 
                                 <div class="aboutImg-textBox">
                                         <i class='bx bx-heart heart-icon flex'></i>
-                                        <p class="content-description">Tattooing is a personal choice, let us help you find the perfect design that represents you.</p>
+                                        <p class="content-description">Tattooing is a personal choice, let me help you find the perfect design that represents you.</p>
                                 </div>
                         </div>
 
@@ -134,11 +137,11 @@
                                                 you can expect a friendly and safe environment, as well as amazing tattoos.</p>
 
                                         <ul class="about-lists flex">
-                                                <li class="about-list">Old School</li>
+                                                <li class="about-list">Fine line Specialist</li>
                                                 <li class="about-list dot">.</li>
-                                                <li class="about-list">Realistc</li>
+                                                <li class="about-list">Micro Realism</li>
                                                 <li class="about-list dot">.</li>
-                                                <li class="about-list">Flash Tatoo</li>
+                                                <li class="about-list">All requests</li>
                                         </ul>
                                 </div>
 
@@ -233,10 +236,50 @@
 
                         <ul class="time-lists">
                                 <li class="time-list flex">
-                                        <span class="open-day"> Sunday</span>
-                                        <span class="open-time">Closed</span>
+                                        <span class="open-day"> Sunday - Saturday</span>
+                                        <span class="open-time">Scheduled</span>
                                 </li>
-                                <li class="time-list flex">
+
+                                <!-- <form id="contact-form"> -->
+
+                                        <!-- <div class="newsletter-inputBox">
+                                                <input type="email" placeholder="emai@example.com" class="newletter-input">                                                
+                                        </div> -->
+
+                                        <!-- <div class="newsletter-inputBox">
+                                                <input type="text" id="name" name="name" class="newletter-input" required>                                               
+                                        </div>
+
+                                        <div class="newsletter-inputBox">
+                                                <input type="email" id="email" name="email" class="newletter-input" required>                                               
+                                        </div>
+
+                                        <div class="newsletter-inputBox">
+                                                <input type="text" id="subject" name="subject" class="newletter-input" required>                                                
+                                        </div>
+
+                                        <div class="newsletter-inputBox">
+                                                <textarea id="message" name="message" class="newletter-input" required></textarea>             
+                                                <button type="submit" class="button newsletter-button">Enviar</button>                                  
+                                        </div> -->
+
+                                        <!-- <label for="name">Nome:</label>
+                                        <input type="text" id="name" name="name" required>
+                                      
+                                        <label for="email">E-mail:</label>
+                                        <input type="email" id="email" name="email" required>
+                                      
+                                        <label for="subject">Assunto:</label>
+                                        <input type="text" id="subject" name="subject" required>
+                                      
+                                        <label for="message">Mensagem:</label>
+                                        <textarea id="message" name="message" required></textarea> -->
+                                      
+                                        
+                                <!-- </form> -->
+
+                                
+                                <!-- <li class="time-list flex">
                                         <span class="open-day"> Monday</span>
                                         <span class="open-time">11.00am - 7.00pm</span>
                                 </li>
@@ -259,7 +302,7 @@
                                 <li class="time-list flex">
                                         <span class="open-day"> Saturday</span>
                                         <span class="open-time">11.00am - 7.00pm</span>
-                                </li>
+                                </li> -->
                         </ul>
                 </div>
                     
@@ -309,16 +352,40 @@
                                         <img src="images/1.jpg" alt="" class="review-img">
                                     </div>
                                     <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">This was my first tattoo that I did and I had the pleasure of doing it with Loren, a super attentive tattoo artist, a very light hand to tattoo, I feel very calm for being my first time, she answered all my doubts and gave me all the instructions and care for good healing and all I can say is that I'm in love with this fine line, looking forward to the next session!!</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
                                         <img src="images/2.jpg" alt="" class="review-img">
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">I have seen Loren twice, once to add to an existing piece and once for creating new pieces. I really love the experience of getting tattooed by her. I think she's very patient, kind, and communicative. She enjoys what she does, bringing fresh energy into her space. She truly listens to her clients and allows for a co-creating environment. On top of all that, she's very talented!</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
                                     </div>
                                     <div class="testi-content swiper-slide flex">
                                         <img src="images/3.jpg" alt="" class="review-img">
                                     </div>
                                     <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">Working with Loren has been a dream come true! I have been wanting some work done for years and keep putting it off. I am SO glad I found her! She is easy to schedule and work with and her art is amazing! I have 10 previous tattoos and hers are by far the best. Her rate is much higher than I have ever paid but it is damn worth it! I can’t wait to have her keep working on my arm.</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
                                         <img src="images/4.jpg" alt="" class="review-img">
                                     </div>
                                     <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">I am so impressed with my tattoos I had worked on. And I recommend all my friends and clients. Her attention to detail and private studio make for a very relaxing experience. And if you want a pain free option her numbing cream makes getting a tattoo a walk in the park.</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
                                         <img src="images/5.jpg" alt="" class="review-img">
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">Dear fellow tattoo enthusiasts,
+                                                I just had the most amazing experience getting a neck tattoo from the talented artist Loren.                                                
+                                                From start to finish, the process was seamless and Loren took the time to understand exactly what I was looking for in my tattoo. She listened intently to my desires and created a design that perfectly captured both my personality and style.                                                
+                                                The end result was simply stunning, and I am thrilled with the finished product. The lines were sharp and the overall execution was flawless. It's clear that Loren takes great pride in her work and is truly dedicated to her craft.                                                
+                                                I would give this establishment a solid 5 stars and would highly recommend Loren Viera to anyone looking for a top-notch tattoo. Thank you!</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
                                     </div>
                                     <div class="testi-content swiper-slide flex">
                                         <img src="images/6.jpg" alt="" class="review-img">
@@ -330,17 +397,34 @@
                                         <img src="images/8.jpg" alt="" class="review-img">
                                     </div>
                                     <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">Loren is very professional. She collaborates with her clients on their pieces. Everyone who sees my tattoos always ask specifically about the ones Loren did. I love them. She will forever be the number one artist for my tattoos.</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
                                         <img src="images/9.jpg" alt="" class="review-img">
                                     </div>
                                     <div class="testi-content swiper-slide flex">
                                         <img src="images/10.jpg" alt="" class="review-img">
                                     </div>
                                     <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">This was my first tattoo that I did and I had the pleasure of doing it with Loren, a super attentive tattoo artist, a very light hand to tattoo, I feel very calm for being my first time, she answered all my doubts and gave me all the instructions and care for good healing and all I can say is that I'm in love with this fine line, looking forward to the next session!!</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
                                         <img src="images/11.jpg" alt="" class="review-img">
+                                    </div>
+                                    <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">This was my first tattoo that I did and I had the pleasure of doing it with Loren, a super attentive tattoo artist, a very light hand to tattoo, I feel very calm for being my first time, she answered all my doubts and gave me all the instructions and care for good healing and all I can say is that I'm in love with this fine line, looking forward to the next session!!</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
                                     </div>
                                     <div class="testi-content swiper-slide flex">
                                         <img src="images/12.jpg" alt="" class="review-img">
                                     </div>
+                                    <div class="testi-content swiper-slide flex">
+                                        <p class="review-quote">This was my first tattoo that I did and I had the pleasure of doing it with Loren, a super attentive tattoo artist, a very light hand to tattoo, I feel very calm for being my first time, she answered all my doubts and gave me all the instructions and care for good healing and all I can say is that I'm in love with this fine line, looking forward to the next session!!</p>
+                                        <i class='bx bxs-quote-alt-left quote-icon'></i>
+                                    </div>
+                                    
 
                                 </div>
                                 <div class="swiper-button-next swiper-navBtn"></div>
@@ -352,29 +436,89 @@
 
     
 <!-- Newsletter Section -->
-        <!-- <section class="section newsletter">
+        <section class="section newsletter">
             <div class="newletter-container container">
                 <a href="#" class="logo-content flex">
-                        <i class='bx bx-coffee logo-icon'></i>
-                        <span class="logo-text">Coffee.</span>
+                        <!-- <i class='bx bx-coffee logo-icon'></i> -->
+                        <img src="images/tattoo_icon.png" alt="" class="logo-icon" style="max-width: 30px;">
+                        <span class="logo-text">Loren Vieira's Studio</span>
                     </a>
 
-                    <p class="section-description">This is the perfect place to find a nice and cozy spot to sip some. You'll find the Java Jungle, Coffee Bean and more shops right in this website.</p>
+                    <p class="section-description">Ink your story, wear your soul.</p>
 
-                    <div class="newsletter-inputBox">
+                    <!-- <div class="newsletter-inputBox">
                             <input type="email" placeholder="emai@example.com" class="newletter-input">
                             <button class="button newsletter-button">Subscribe</button>
                     </div>
+
+                    <div class="newsletter-inputBox">
+                        <input type="email" placeholder="emai@example.com" class="newletter-input-2">
+                    </div> -->
+
+                    <div class="newsletter-inputBox">
+                        <input type="text" id="name" placeholder="Name" name="name" class="newletter-input-2" required>                                               
+                </div>
+
+                <div class="newsletter-inputBox">
+                        <input type="email" placeholder="email@example.com" id="email" name="email" class="newletter-input-2" required>                                               
+                </div>
+
+                <div class="newsletter-inputBox">
+                        <input type="text" placeholder="Subject" id="subject" name="subject" class="newletter-input-2" required>                                                
+                </div>
+
+                <div class="newsletter-inputBox">
+                        <textarea id="message" name="message" class="newsletter-button-2" required></textarea>                                  
+                </div>
+
+                <div class="newsletter-inputBox">
+                        <button type="submit" class="button newsletter-button-2">Enviar</button>   
+                </div>
+
+                <script>
+        
+                        (function() {
+                        // Configuração do EmailJS
+                        emailjs.init('6sJznU0dda69rlo1w');
+                
+                    
+                
+                        // Adiciona um evento de submit ao formulário
+                        document.getElementById('contact-form').addEventListener('submit', function(event) {
+                            event.preventDefault();
+                
+                            // Pega os valores dos campos do formulário
+                            var name = document.getElementById('name').value;
+                            var email = document.getElementById('email').value;
+                            var subject = document.getElementById('subject').value;
+                            var message = document.getElementById('message').value;
+                
+                            // Envia o e-mail usando o EmailJS
+                            emailjs.send('service_6maadok', 'template_14vt17o', {
+                            name: name,
+                            email: email,
+                            subject: subject,
+                            message: message
+                            }).then(function(response) {
+                            alert('E-mail enviado com sucesso!');
+                            document.getElementById('contact-form').reset();
+                            }, function(error) {
+                            alert('Ocorreu um erro ao enviar o e-mail. Por favor, tente novamente mais tarde.');
+                            console.log('ERROR', error);
+                            });
+                        });
+                        })();
+                    </script>
 
                     <div class="newsletter media-icons flex">
                         <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
                         <a href="https://twitter.com/i/flow/login"><i class='bx bxl-twitter' ></i></a>
                         <a href="https://www.instagram.com/accounts/login"><i class='bx bxl-instagram-alt' ></i></a>
-                        <a href="https://github.com/login"><i class='bx bxl-github'></i></a>
-                        <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a>
+                        <!-- <a href="https://github.com/login"><i class='bx bxl-github'></i></a> -->
+                        <!-- <a href="https://www.youtube.com/login"><i class='bx bxl-youtube'></i></a> -->
                     </div>
             </div>
-        </section> -->
+        </section>
         
     
 <!-- Footer Section -->
