@@ -699,13 +699,14 @@ img.logo{
 }
 .footer-container{
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 2rem;
+  /* grid-template-columns: 1fr 2fr;
+  column-gap: 2rem; */
   align-items: center;
 }
 .footer-content{
   display: grid;
   row-gap: 3rem;
+  justify-items: center;
 }
 .footer .logo-text,
 .footer .logo-icon{
