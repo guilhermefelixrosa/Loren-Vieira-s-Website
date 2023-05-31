@@ -247,6 +247,7 @@ img.logo{
 }
 .media-icons a{
   color: var(--text-color-light);
+  font-size: 2em;
 }
 .navClose-btn,
 .navOpen-btn,
